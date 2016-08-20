@@ -1,0 +1,20 @@
+// HolaMundo.cpp : Defines the entry point for the console application.
+// name: cristian jesus torrico cespedes
+// fecha: 20-08-16
+// librerias
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+
+using namespace std;
+
+// Cuerpo principal
+int main()
+{
+	cout<<"Hola Mundo \n";
+	cout<<"soy Cristian Jesus";
+	getch();
+	return 0;
+
+}
