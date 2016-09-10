@@ -1,0 +1,32 @@
+// capital.cpp : Defines the entry point for the console application.
+// name: cristian jesus torrico cespedes
+// fecha: 10/09/16
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	float K,I,N,P;
+	cout<<"Ingrese el capital inicial: ";
+	cin>> K;
+	if (K>1000)
+	{
+	cout<<"Ingrese el interes: ";
+	cin>> I;
+	cout<<"Ingrese los dias: ";
+	cin>> N;
+
+	P = K*I*N/360;
+
+	cout<<"El interes es: "<<P;
+}
+else
+	cout<<"su prestamo no es mas de 1000\n";
+	
+
+	getch();
+}
